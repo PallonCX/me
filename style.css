@@ -1,0 +1,82 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+#line{
+	border-width: 1px;
+	border-style: solid;
+	border-image: 
+    linear-gradient(
+      to right, 
+      red, 
+      yellow
+    ) 1 20%;
+}
+
+#menubar{
+	display: flex;
+  	justify-content: space-between;
+    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#lmbuttons{
+  	justify-content: space-between;
+    bottom: 50%;
+}
+
+#logo{	
+    font-family: “Comic Sans MS”, “Comic Sans”, cursive;
+    font-weight: bold;
+    font-size: 200%;
+    color: indigo;
+}
+
+#quote{
+    margin: 5%;
+    padding: 2%;
+    text-align: justify;
+    text-justify: auto;
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+    color: indigo;
+    border: 1px solid;
+    border-radius: 10px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      purple
+    ) 1 10%;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, red, purple);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+#quote-name{
+    text-align: right;
+}
+
+#quote-work{
+    position: relative;
+}
+
+#quote-work-bg{
+    height:300px;
+    padding: 20%;
+    clip-path: circle(74.0% at 59% 100%);
+    background-image: linear-gradient(yellow, orangered);
+}
+
+#work{
+    height: 420px;
+    padding: 60%;
+    padding-left: 80%;
+    clip-path: circle(98.2% at 85% 99%);
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+}
