@@ -134,32 +134,25 @@ body {
     text-align: right;
 }
 
-#work-edu{
+#starting-bg{
     position: relative;
     overflow: hidden;
-    height: 1000px;
+    height: 40vh;
     width: 100%;
-    border-bottom: 2px solid;
-    border-image: 
-    linear-gradient(
-      to right, 
-      red, 
-      yellow
-    ) 1 20%;
 }
 
-#quote-work-bg{
+#layer1{
     aspect-ratio : 1 / 1;
     width: 100%;
     position: absolute;
     background-image: linear-gradient(yellow, orangered);
     border-radius: 50%;
     top: 10%;
-    left: -10%;
+    left: 10%;
     padding: 20%;
 }
 
-#work-bg{
+#layer2{
     aspect-ratio : 1 / 1;
     width: 100%;
     position: absolute;
@@ -169,13 +162,54 @@ body {
     background-color: white;
     border-radius: 50%;
     z-index: 1;
+    height: auto;
+}
+
+#work-bg{
+    background-color: transparent;
+    height: auto;
 }
 
 #work-title {
-    top: 150px;
-    color: indigo;
-    position: absolute;
+    color: orangered;
 }
+
+.work {
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3vh;
+    padding: 20px;
+    left: 5%;
+    top: 100px;
+    display: flex;
+}
+
+.work-logo {
+    width: 10vw;
+    height: 10vw;
+}
+
+.work-descriptions {
+    position: static;
+    margin-left: 20px;
+}
+
+.work-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    padding: 1vh 0px;
+}
+
+.work-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding: 1vh 0px;
+}
+
 
 #edu-bg{
     background-color: honeydew;
@@ -187,7 +221,7 @@ body {
 }
 
 .edu {
-    border: 1px solid purple;
+    border: 1px solid green;
     border-radius: 10px;
     background-color: white;
     width: 80%;
