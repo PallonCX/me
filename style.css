@@ -16,7 +16,7 @@ body {
 }
 
 .section-bg{
-    height: 1000px;
+    height: auto;
     position: relative;
     border-bottom: 2px solid;
     border-image: 
@@ -25,6 +25,43 @@ body {
       red, 
       yellow
     ) 1 20%;
+}
+
+.cell {
+    border: 1px solid purple;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3vh;
+    padding: 20px;
+    left: 5%;
+    top: 100px;
+    display: flex;
+}
+
+.cell-logo{
+    clip-path: circle(45%);
+    width: 10vw;
+    height: 10vw;
+}
+
+.cell-descriptions {
+    position: static;
+    margin-left: 20px;
+}
+
+.cell-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 1vh 0px;
+}
+
+.cell-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vw;
+    padding: 1vh 0px;
 }
 
 #menubar{
@@ -167,53 +204,32 @@ body {
 
 #work-bg{
     background-color: transparent;
-    height: auto;
 }
 
-#work-title {
+#work-title{
     color: orangered;
 }
 
 .work {
     border: 1px solid orange;
-    border-radius: 10px;
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 3vh;
-    padding: 20px;
-    left: 5%;
-    top: 100px;
-    display: flex;
 }
 
 .work-logo {
-    width: 10vw;
-    height: 10vw;
+    clip-path: none;
 }
 
 .work-descriptions {
-    position: static;
-    margin-left: 20px;
 }
 
 .work-name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5vw;
-    font-weight: bold;
-    padding: 1vh 0px;
 }
 
 .work-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
-    padding: 1vh 0px;
 }
 
 
 #edu-bg{
     background-color: honeydew;
-    height: auto;
 }
 
 #edu-title{
@@ -222,43 +238,23 @@ body {
 
 .edu {
     border: 1px solid green;
-    border-radius: 10px;
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 3vh;
-    padding: 20px;
-    left: 5%;
-    top: 100px;
-    display: flex;
 }
 
 .edu-logo {
-    width: 10vw;
-    height: 10vw;
+    clip-path: none;
 }
 
 .edu-descriptions {
-    position: static;
-    margin-left: 20px;
 }
 
 .edu-name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5vw;
-    font-weight: bold;
-    padding: 1vh 0px;
 }
 
 .edu-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
-    padding: 1vh 0px;
 }
 
 #project-bg{
     background-color: aliceblue;
-    height: auto;
 }
 
 #project-title{
@@ -267,86 +263,51 @@ body {
 
 .project {
     border: 1px solid blue;
-    border-radius: 10px;
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 3vh;
-    padding: 20px;
-    left: 5%;
-    top: 100px;
-    display: flex;
 }
 
 .project-photo {
     width: 40vw;
+    height: auto;
+    clip-path: none;
     border-radius: 10px;
     border: 1px solid grey;
 }
 
 .project-descriptions {
-    position: static;
-    margin-left: 20px;
 }
 
 .project-name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5vw;
-    font-weight: bold;
     padding: 2vh 0px;
 }
 
 .project-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
     padding: 2vh 0px;
 }
 
 #license-bg{
     border-width: 0px;
     background-color: rgb(238, 224, 241);
-    height: auto;
 }
 
 #license-title{
     color: indigo;
 }
 
-.certs {
+.cert {
     border: 1px solid purple;
-    border-radius: 10px;
-    background-color: white;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 3vh;
-    padding: 20px;
-    left: 5%;
-    top: 100px;
-    display: flex;
 }
 
-.certs-logo {
+.cert-logo {
     clip-path: circle(45%);
-    width: 10vw;
-    height: 10vw;
 }
 
-.certs-descriptions {
-    position: static;
-    margin-left: 20px;
+.cert-descriptions {
 }
 
-.certs-name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5vw;
-    font-weight: bold;
-    padding: 1vh 0px;
+.cert-name {
 }
 
-.certs-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
-    padding: 1vh 0px;
+.cert-text {
 }
 
 #placeholder{
