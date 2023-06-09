@@ -359,9 +359,8 @@ body {
 #footer-descriptions{
     position: absolute;
     margin: auto;
-    padding-top: 80%;
+    margin-top: 80%;
     width: 60vw;
-    height: 100px;
     left: 20%;
 }
 
